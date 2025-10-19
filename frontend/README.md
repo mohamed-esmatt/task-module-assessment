@@ -1,16 +1,62 @@
-# React + Vite
+# Task Management Module - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React/Vite frontend for the Task Management Module.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18
+- Vite
+- Axios for API calls
+- React Router DOM for routing
+- Bootstrap 5 for styling
 
-## React Compiler
+## Folder Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+frontend/
+│
+├── src/
+│ ├── api.js # Axios instance
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── pages/
+│ ├── Login.jsx
+│ ├── Signup.jsx
+│ └── Dashboard.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+
+1. Install dependencies:
+
+```bash
+npm install
+
+    Start the development server:
+
+npm run dev
+
+    Open the frontend in your browser:
+
+http://localhost:5173
+
+Features
+
+    User registration and login
+
+    Task creation, editing, completion, and deletion
+
+    Task filtering and dynamic status: Done, Missed, Due Today, Upcoming
+
+    Session-based authentication with API
+
+    Responsive UI with Bootstrap
+
+Notes
+
+    Ensure the backend is running on http://localhost:8000.
+
+    Axios is configured to send requests with credentials to the backend.
