@@ -6,7 +6,7 @@ Users can register, log in, create tasks, assign them to other users, and manage
 ---
 
 
-## ⚙️ Backend Setup
+##  Backend Setup
 
 ### Requirements
 
@@ -53,7 +53,7 @@ php -S localhost:8000
 
     Backend API will be available at http://localhost:8000/api/.
 
-⚛️ Frontend Setup
+ Frontend Setup
 Requirements
 
     Node.js v18+
@@ -78,7 +78,7 @@ npm run dev
 
 http://localhost:5173
 
-🔗 API Endpoints
+ API Endpoints
 Auth
 Endpoint	Method	Description
 /api/auth/signup.php	POST	Register a new user
@@ -90,7 +90,7 @@ Endpoint	Method	Description
 /api/tasks/index.php	POST	Create a new task
 /api/tasks/index.php	PUT	Update a task (mark complete/incomplete)
 /api/tasks/index.php	DELETE	Delete a task
-✅ Features
+ Features
 
     User registration and login
 
@@ -108,7 +108,7 @@ Endpoint	Method	Description
 
     CORS-enabled for frontend-backend communication
 
-⚠️ Notes
+ Notes
 
     Backend is running on http://localhost:8000
 
@@ -118,7 +118,7 @@ Endpoint	Method	Description
 
     Use .gitignore to ignore node_modules/ and temporary files
 
-🛠 Run Full Flow
+ Run Full Flow
 
     Start backend server (php -S localhost:8000 in backend/)
 
