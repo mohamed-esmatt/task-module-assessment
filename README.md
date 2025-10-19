@@ -5,35 +5,6 @@ Users can register, log in, create tasks, assign them to other users, and manage
 
 ---
 
-## 🗂 Folder Structure
-
-task-module-assessment/
-backend/
-api/
-auth/
-login.php
-signup.php
-tasks/
-index.php
-logout.php
-db.php
-.htaccess
-frontend/
-src/
-api.js
-App.jsx
-main.jsx
-pages/
-Login.jsx
-Signup.jsx
-Dashboard.jsx
-index.html
-package.json
-vite.config.js
-README.md
-.gitignore
-
----
 
 ## ⚙️ Backend Setup
 
